@@ -22,7 +22,7 @@ jobs:
           node-version: 18 # Assure-toi que la version est compatible avec Vite
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install --ignore-scripts
 
       - name: Build Project
         run: npm run build
